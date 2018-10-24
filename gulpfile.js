@@ -42,7 +42,7 @@ gulp.task('serve', ['sass'], () => {
     ], ['pug']);
 
     //gulp.watch('src/*.html').on('change', browserSync.reload)
-    gulp.watch('src/views/*.pug').on('change', browserSync.reload)
+    //gulp.watch('src/views/*.pug').on('change', browserSync.reload)
 })
 
 //copy font-awsome
